@@ -1,0 +1,186 @@
+body {
+	font-size: 18px;
+	font-family: "Noto Sans";
+	line-height: 1.2;
+}
+
+span {
+	color: green;
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.header {
+	padding: 50px;
+}
+
+.header__title {
+	font-family: "ComforterBrush";
+	font-size: 48px;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgb(15, 94, 94);
+	text-shadow: 2px 2px 10px rgb(15, 94, 94);
+}
+
+
+.foreword {
+	font-size: 20px;
+	padding: 50px 20px 50px 20px;
+}
+
+
+.foreword p {
+	text-align: justify;
+	text-indent: 50px;
+}
+
+.foreword p:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.body__open-sans {
+	font-family: "OpenSans";
+	padding: 40px 20px;
+}
+
+.open-sans {}
+
+.italic {
+	font-style: italic;
+}
+
+.open-sans p:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.open-sans__light {
+	font-weight: 300;
+}
+
+.open-sans__medium {
+	font-weight: 500;
+}
+
+.open-sans__semi-bold {
+	font-weight: 600;
+}
+
+.open-sans__bold {
+	font-weight: 700;
+}
+
+.open-sans__extra-bold {
+	font-weight: 800;
+}
+
+.body__text-align {
+	padding: 30px 20px;
+}
+
+
+.body__text-align p:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.text-align {}
+
+.text-align__left {}
+
+.text-align__right {
+	text-align: right;
+}
+
+.text-align__center {
+	text-align: center;
+}
+
+.text-align__justify {
+	text-align: justify;
+}
+
+.body__text-decoration {
+	padding: 30px 20px;
+}
+
+.body__text-decoration p:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.text-decoration {}
+
+.text-decoration__line-through {
+	text-decoration: line-through;
+}
+
+.text-decoration__overline {
+	text-decoration: overline;
+}
+
+.text-decoration__underline {
+	text-decoration: underline;
+}
+
+.body__text-shadow {
+	padding: 30px 20px;
+	text-shadow: 2px 2px 10px rgb(15, 94, 94), 2px 2px 5px rgb(165, 31, 158);
+}
+
+.body__text-transform {
+	padding: 30px 20px;
+}
+
+.body__text-transform p:not(:last-child) {
+	margin-bottom: 17px;
+}
+
+.text-transform__capitalize {
+	text-transform: capitalize;
+}
+
+.text-transform__lowercase {
+	text-transform: lowercase;
+}
+
+.text-transform__uppercase {
+	text-transform: uppercase;
+}
+
+.body__text-indent {
+	padding: 30px 20px;
+	text-indent: 60px;
+}
+
+.text-transform {}
+
+.body__letter-spacing {
+	padding: 30px 20px;
+	letter-spacing: 8px;
+}
+
+.letter-spacing {}
+
+.body__white-space {
+	padding: 30px 20px;
+	white-space: nowrap;
+}
+
+.white-space {}
+
+.body__word-spacing {
+	padding: 30px 20px;
+	word-spacing: 15px;
+}
+
+.word-spacin {}
+
+.footer {
+	padding: 30px 20px;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 3px;
+}
+
+.footer__avtor {}
+
+.footer__year {}
